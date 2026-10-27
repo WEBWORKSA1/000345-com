@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">{% if page.extra_head %}
+{{ page.extra_head }}{% endif %}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="canonical" href="{{ page.canonical }}">
+<meta name="robots" content="{{ page.robots }}">
+<meta name="google-adsense-account" content="ca-pub-6620975821265271">
+<meta property="og:type" content="{{ page.og_type }}">
+<meta property="og:site_name" content="000345">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ page.canonical }}">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F5B800">
+<link rel="icon" href="{{ page.p }}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ page.p }}assets/img/favicon.svg">
+<link rel="manifest" href="{{ page.p }}site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ page.p }}assets/css/style.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6620975821265271" crossorigin="anonymous"></script>
+{{ page.schema }}
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="notice" role="region" aria-label="Site ownership notice"><div class="wrap"><span>Contact, if you are interested in this website / domain name / Sponsorship / Advertisement / Partnership:</span> <a href="https://web.works/contact" rel="noopener" target="_blank">web.works/contact</a></div></div>
+<div class="tape" aria-hidden="true"></div>
+<header class="site-head">
+ <div class="wrap">
+  <a class="brand" href="{{ page.p }}index.html" aria-label="000345 home"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="6" fill="#F5B800"/><path d="M9 31V9M9 31H31M9 31L31 9" stroke="#1D2329" stroke-width="3.2" stroke-linecap="round" fill="none"/><path d="M9 25h6v6" stroke="#2357C6" stroke-width="2.4" fill="none"/></svg><span><b>000345</b><small>Square-corner toolkit</small></span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav class="nav" id="nav" aria-label="Main"><a href="{{ page.p }}calculators/index.html"{% if page.current == "calculators/index.html" %} aria-current="page"{% endif %}>Calculators</a><a href="{{ page.p }}guides/index.html"{% if page.current == "guides/index.html" %} aria-current="page"{% endif %}>Guides</a><a href="{{ page.p }}videos.html"{% if page.current == "videos.html" %} aria-current="page"{% endif %}>Videos</a><a href="{{ page.p }}contests.html"{% if page.current == "contests.html" %} aria-current="page"{% endif %}>Contests</a><a href="{{ page.p }}pros.html"{% if page.current == "pros.html" %} aria-current="page"{% endif %}>For Pros</a><a href="{{ page.p }}support.html"{% if page.current == "support.html" %} aria-current="page"{% endif %}>Support</a><a class="btn btn-tape btn-sm" href="{{ page.p }}quotes.html">Get free quotes</a><button class="theme-btn" aria-label="Switch light or dark theme" title="Theme">◐</button></nav>
+ </div>
+</header>
+<main id="main">
+{{ content }}
+</main>
+<footer class="site-foot">
+ <div class="wrap">
+  <div class="foot-grid">
+   <div><a class="brand" href="{{ page.p }}index.html" style="color:#fff"><svg viewBox="0 0 40 40" aria-hidden="true"><rect width="40" height="40" rx="6" fill="#F5B800"/><path d="M9 31V9M9 31H31M9 31L31 9" stroke="#1D2329" stroke-width="3.2" stroke-linecap="round" fill="none"/><path d="M9 25h6v6" stroke="#2357C6" stroke-width="2.4" fill="none"/></svg><span><b>000345</b></span></a>
+    <p style="margin-top:12px">Free layout and estimating calculators for builders and DIYers. Start at zero, square it with 3-4-5, and build it right.</p>
+    <p><a href="#" data-mail="General inquiry — 000345.com">Email the team</a></p></div>
+   <div><h4>Tools</h4><ul>
+    <li><a href="{{ page.p }}calculators/3-4-5-squaring-calculator.html">3-4-5 squaring</a></li>
+    <li><a href="{{ page.p }}calculators/concrete-slab-calculator.html">Concrete slab</a></li>
+    <li><a href="{{ page.p }}calculators/stair-calculator.html">Stairs</a></li>
+    <li><a href="{{ page.p }}calculators/roof-pitch-calculator.html">Roof pitch</a></li>
+    <li><a href="{{ page.p }}calculators/index.html">All calculators</a></li></ul></div>
+   <div><h4>Learn</h4><ul>
+    <li><a href="{{ page.p }}guides/index.html">Guides</a></li>
+    <li><a href="{{ page.p }}videos.html">Video library</a></li>
+    <li><a href="{{ page.p }}methodology.html">How we calculate</a></li>
+    <li><a href="{{ page.p }}contests.html">Square Corner Challenge</a></li></ul></div>
+   <div><h4>Work with us</h4><ul>
+    <li><a href="{{ page.p }}quotes.html">Get free quotes</a></li>
+    <li><a href="{{ page.p }}pros.html">Join as a pro</a></li>
+    <li><a href="{{ page.p }}advertise.html">Advertise &amp; sponsor</a></li>
+    <li><a href="{{ page.p }}careers.html">Careers</a></li>
+    <li><a href="{{ page.p }}support.html">Support the project</a></li></ul></div>
+   <div><h4>Company</h4><ul>
+    <li><a href="{{ page.p }}about.html">About</a></li>
+    <li><a href="{{ page.p }}contact.html">Contact</a></li>
+    <li><a href="{{ page.p }}privacy.html">Privacy</a></li>
+    <li><a href="{{ page.p }}terms.html">Terms</a></li>
+    <li><a href="{{ page.p }}disclaimer.html">Disclaimer</a></li>
+    <li><a href="{{ page.p }}legal.html">Trademark &amp; copyright</a></li></ul></div>
+  </div>
+  <div class="foot-legal">© <span data-year>2026</span> 000345.com. All rights reserved. Calculations are estimates for planning; confirm structural work with local code and a qualified professional. 000345 is an independent site and is not affiliated with any company, security, product or registration that shares this number. <a href="{{ page.p }}legal.html">Full disclosure</a>.</div>
+ </div>
+</footer>
+<div class="cookie" role="dialog" aria-live="polite" aria-label="Cookie choices">
+ <strong>Cookies on 000345</strong>
+ <p class="muted" style="margin:.3em 0 0">We use cookies to keep your settings and to show ads through Google AdSense, which may personalise ads. <a href="{{ page.p }}privacy.html">Privacy policy</a>.</p>
+ <div class="row"><button class="btn btn-tape btn-sm" data-cookie="all">Accept all</button><button class="btn btn-ghost btn-sm" data-cookie="essential">Non-personalised ads only</button></div>
+</div>
+<script src="{{ page.p }}assets/js/main.js" defer></script>{% if page.calc %}<script src="{{ page.p }}assets/js/calc.js" defer></script>{% endif %}
+</body>
+</html>

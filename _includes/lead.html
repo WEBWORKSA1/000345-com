@@ -1,0 +1,12 @@
+<div class="lead">
+ <div><h2>Ready to build? Get up to 3 free quotes from local pros.</h2>
+  <p>Tell us about the project in about a minute. We pass it to up to three vetted local contractors who cover your area.</p>
+  <ul><li>Free for homeowners, no obligation to hire</li><li>Your details go only to the pros matched to your job</li><li>Bring your calculator numbers — pros quote faster with real measurements</li></ul></div>
+ <div class="formcard"><h3>Start with your postal code</h3>
+  <form action="{{ include.p }}quotes.html" method="get">
+   <input type="hidden" name="project" value="{{ include.project }}">
+   <div class="field"><label for="zip-{{ include.project | default: "g" }}">ZIP / postal code</label><input id="zip-{{ include.project | default: "g" }}" name="zip" required pattern="[A-Za-z0-9 \-]{3,10}" autocomplete="postal-code" placeholder="e.g. 90210 or H2X 1Y4"></div>
+   <button class="btn btn-tape" type="submit" style="width:100%">Get free quotes</button>
+   <p style="font-size:.85rem;margin:.8em 0 0">Takes about 60 seconds. No spam.</p>
+  </form></div>
+</div>

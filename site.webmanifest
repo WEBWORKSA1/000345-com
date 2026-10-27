@@ -1,0 +1,15 @@
+{
+ "name": "000345 — Square-corner toolkit",
+ "short_name": "000345",
+ "start_url": "./index.html",
+ "display": "standalone",
+ "background_color": "#EDEFF0",
+ "theme_color": "#F5B800",
+ "icons": [
+  {
+   "src": "assets/img/favicon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}

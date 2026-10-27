@@ -1,0 +1,8 @@
+title: "000345"
+description: Free 3-4-5 squaring and construction calculators.
+exclude:
+  - tools
+  - README.md
+  - docs
+  - jekyllize.py
+keep_files: []
