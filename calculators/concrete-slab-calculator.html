@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Concrete Slab Calculator (Free, ft &amp; m) | 000345"
+description: "Concrete slab calculator: enter length, width and thickness to get cubic yards or cubic metres, 60 lb and 80 lb bag counts, and a ready-mix order with waste."
+canonical: "https://000345.com/calculators/concrete-slab-calculator.html"
+robots: "index, follow, max-image-preview:large"
+og_type: "website"
+p: "../"
+current: "calculators/index.html"
+calc: true
+schema: "<script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebSite\", \"name\": \"000345\", \"url\": \"https://000345.com/\", \"description\": \"Free construction layout and estimating calculators built around the 3-4-5 rule.\"}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Concrete Slab Calculator\", \"applicationCategory\": \"UtilitiesApplication\", \"operatingSystem\": \"Any (web browser)\", \"offers\": {\"@type\": \"Offer\", \"price\": \"0\", \"priceCurrency\": \"USD\"}, \"url\": \"https://000345.com/calculators/concrete-slab-calculator.html\", \"description\": \"Concrete slab calculator: enter length, width and thickness to get cubic yards or cubic metres, 60 lb and 80 lb bag counts, and a ready-mix order with waste.\"}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"FAQPage\", \"mainEntity\": [{\"@type\": \"Question\", \"name\": \"How many 80 lb bags make a cubic yard?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"About 45. Each 80 lb bag yields roughly 0.6 cubic feet, and a cubic yard is 27 cubic feet.\"}}, {\"@type\": \"Question\", \"name\": \"How much extra concrete should I order?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"5–10% covers spillage, an uneven base and forms that bow slightly. Use the higher end for hand-dug or uneven subgrade.\"}}, {\"@type\": \"Question\", \"name\": \"Is 4 inches thick enough for a driveway?\", \"acceptedAnswer\": {\"@type\": \"Answer\", \"text\": \"For cars it can work on a well-compacted base, but 5–6 inches is the common recommendation for driveways, especially with heavier vehicles.\"}}]}</script><script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\", \"itemListElement\": [{\"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://000345.com/\"}, {\"@type\": \"ListItem\", \"position\": 2, \"name\": \"Calculators\", \"item\": \"https://000345.com/calculators/\"}, {\"@type\": \"ListItem\", \"position\": 3, \"name\": \"Concrete Slab Calculator\", \"item\": \"https://000345.com/calculators/concrete-slab-calculator.html\"}]}</script>"
+---
+<nav class="crumbs wrap" aria-label="Breadcrumb"><a href="../index.html">Home</a> / <a href="../calculators/">Calculators</a> / <span aria-current="page">Concrete Slab Calculator</span></nav>
+<div class="page-head" style="border-bottom:0;background:transparent;padding-bottom:6px"><div class="wrap"><h1>Concrete Slab Calculator</h1><p>Cubic yards, cubic metres and bag counts for slabs and pads.</p></div></div>
+<div class="wrap"><div class="calc-layout">
+ <article>
+  <div class="calc-box" data-calc="concrete">
+   <div class="unit-switch" role="group" aria-label="Units"><button type="button" data-sys="imp" aria-pressed="true">Imperial (ft, in)</button><button type="button" data-sys="met" aria-pressed="false">Metric (m, cm)</button></div>
+   <div class="inputs"><div class="field"><label for="concrete-l">Length<span class="u"> (ft)</span></label><input id="concrete-l" name="l" type="number" inputmode="decimal" step="any" min="0" value="12" data-imp="12" data-met="3.6" data-u-imp="ft" data-u-met="m" aria-describedby="concrete-l-help"><small id="concrete-l-help" class="muted" style="display:block;font-size:.82rem;margin-top:3px">Inside of the forms.</small></div><div class="field"><label for="concrete-w">Width<span class="u"> (ft)</span></label><input id="concrete-w" name="w" type="number" inputmode="decimal" step="any" min="0" value="10" data-imp="10" data-met="3" data-u-imp="ft" data-u-met="m" aria-describedby="concrete-w-help"><small id="concrete-w-help" class="muted" style="display:block;font-size:.82rem;margin-top:3px">Inside of the forms.</small></div><div class="field"><label for="concrete-t">Thickness<span class="u"> (in)</span></label><input id="concrete-t" name="t" type="number" inputmode="decimal" step="any" min="0" value="4" data-imp="4" data-met="10" data-u-imp="in" data-u-met="cm" aria-describedby="concrete-t-help"><small id="concrete-t-help" class="muted" style="display:block;font-size:.82rem;margin-top:3px">4" (10 cm) for patios and walks, 5–6" (13–15 cm) for driveways.</small></div><div class="field"><label for="concrete-waste">Waste allowance<span class="u"> (%)</span></label><input id="concrete-waste" name="waste" type="number" inputmode="decimal" step="any" min="0" value="10" data-imp="10" data-met="10" data-u-imp="%" data-u-met="%" aria-describedby="concrete-waste-help"><small id="concrete-waste-help" class="muted" style="display:block;font-size:.82rem;margin-top:3px">5–10% is typical.</small></div></div>
+   <div class="results" aria-live="polite"></div>
+   <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button type="button" class="btn btn-ghost btn-sm" data-reset>Reset</button><button type="button" class="btn btn-ghost btn-sm" data-print>Print</button><button type="button" class="btn btn-ghost btn-sm" data-share>Share</button><a class="btn btn-tape btn-sm" href="../quotes.html?project=concrete">Get quotes for this job</a></div>
+  </div>
+  <p class="byline">By the 000345 editorial team · Last reviewed October 2026 · <a href="../methodology.html">How we calculate</a></p>
+  
+  <div class="prose">
+<p>Ordering too little concrete leaves a cold joint in the middle of your pour; ordering too much wastes money on material you cannot return. This calculator turns slab dimensions into an order: volume in cubic yards and cubic metres, the number of premix bags, and a ready-mix quantity rounded up to the quarter yard most plants deliver in.</p>
+<h2>Formula</h2>
+<p>Volume = length × width × thickness. In imperial units, convert thickness to feet (inches ÷ 12), multiply to get cubic feet, then divide by 27 for cubic yards. In metric, convert thickness to metres and the result is already in cubic metres.</p>
+<h2>Worked example</h2>
+<p>A 12 × 10 ft patio at 4" thick: 12 × 10 × (4 ÷ 12) = 40 ft³ ÷ 27 = 1.48 yd³. Add 10% and you need about 1.63 yd³ — order 1.75 yd³, or about 74 bags of 80 lb premix (each yields roughly 0.6 ft³).</p>
+<h2>Bags or ready-mix?</h2>
+<p>Under about 1 yd³, bagged concrete mixed on site is usually cheaper. Above 1.5–2 yd³, a ready-mix truck saves hours of mixing and gives a more consistent slab. Many plants have a short-load fee for small orders, so ask before you book.</p>
+<h2>Thickness guide</h2>
+<table><thead><tr><th>Use</th><th>Typical thickness</th></tr></thead><tbody>
+<tr><td>Walkways, patios</td><td>4" / 100 mm</td></tr><tr><td>Shed or hot-tub pad</td><td>4–6" / 100–150 mm</td></tr>
+<tr><td>Residential driveway</td><td>5–6" / 125–150 mm</td></tr><tr><td>Garage floor</td><td>4–6" / 100–150 mm</td></tr></tbody></table>
+<p>Before forming, square the slab with the <a href="3-4-5-squaring-calculator.html">3-4-5 calculator</a> and confirm both diagonals match.</p>
+  <h2>Watch: how it is done</h2><div class="video-grid" style="grid-template-columns:1fr"><article class="video"><div class="frame"><button data-yt="QDKLkD4uDFE" aria-label="Play: Learn how to pour a concrete slab - DIY with MARSHALLTOWN"><span>▶ Play video</span></button></div><div class="meta"><h3>Learn how to pour a concrete slab - DIY with MARSHALLTOWN</h3><p class="muted" style="margin:0">MARSHALLTOWN · YouTube</p></div></article></div><p class="muted" style="font-size:.9rem">Video by MARSHALLTOWN on YouTube. More in our <a href="../videos.html">video library</a>.</p>
+  <h2>Frequently asked questions</h2><details><summary>How many 80 lb bags make a cubic yard?</summary><p>About 45. Each 80 lb bag yields roughly 0.6 cubic feet, and a cubic yard is 27 cubic feet.</p></details><details><summary>How much extra concrete should I order?</summary><p>5–10% covers spillage, an uneven base and forms that bow slightly. Use the higher end for hand-dug or uneven subgrade.</p></details><details><summary>Is 4 inches thick enough for a driveway?</summary><p>For cars it can work on a well-compacted base, but 5–6 inches is the common recommendation for driveways, especially with heavier vehicles.</p></details>
+  <p class="muted" style="margin-top:20px;font-size:.92rem">Results are planning estimates. For structural work, confirm requirements with your local building authority and a qualified professional. See our <a href="../disclaimer.html">disclaimer</a>.</p>
+  </div>
+ </article>
+ <aside><div class="sticky-aside">
+  <div class="aside-box"><h3>Related calculators</h3><ul><li><a href="footing-concrete-calculator.html">Post Hole & Footing Concrete Calculator</a></li><li><a href="3-4-5-squaring-calculator.html">3-4-5 Squaring Calculator</a></li><li><a href="gravel-calculator.html">Gravel, Mulch & Soil Calculator</a></li><li><a href="rectangle-diagonal-check.html">Rectangle Diagonal Check Calculator</a></li></ul></div>
+  <div class="aside-box" style="border-top:6px solid var(--tape)"><h3>Need a pro for this?</h3><p>Get up to three free quotes from local contractors. Bring the numbers from this calculator.</p><a class="btn btn-tape btn-sm" href="../quotes.html?project=concrete">Get free quotes</a></div>
+  <div class="aside-box"><h3>Keep these tools free</h3><p style="margin-bottom:10px">Reader support pays for new calculators and contest prizes.</p><a href="../support.html">Support 000345</a></div>
+ </div></aside>
+</div>
+<div style="margin-top:30px">{% include lead.html p="../" project="concrete" %}</div>
+
+</div>
